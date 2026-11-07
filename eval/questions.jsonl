@@ -1,0 +1,20 @@
+{"id": "e01", "answerable": true, "question": "What did you say at the opening of Everton Park housing estate?", "expected_docs": ["lky19651108"]}
+{"id": "e02", "answerable": true, "question": "What did you tell the people at Serangoon Gardens in December 1965?", "expected_docs": ["lky19651211c"]}
+{"id": "e03", "answerable": true, "question": "What did you say at the opening of Trade Union House?", "expected_docs": ["lky19651015"]}
+{"id": "e04", "answerable": true, "question": "What message did you give at the University of Singapore convocation dinner?", "expected_docs": ["lky19670619"]}
+{"id": "e05", "answerable": true, "question": "What did you say at the University of Dar-es-Salaam?", "expected_docs": ["lky19700906b"]}
+{"id": "e06", "answerable": true, "question": "What did you tell the press in Bonn in 1970?", "expected_docs": ["lky19700929"]}
+{"id": "e07", "answerable": true, "question": "What did you say to the ASEAN economic ministers?", "expected_docs": ["lky19800421"]}
+{"id": "e08", "answerable": true, "question": "What did you say about education and the Goh report?", "expected_docs": ["lky19800520a"]}
+{"id": "e09", "answerable": true, "question": "What did you say about work attitudes and productivity?", "expected_docs": ["lky19800815"]}
+{"id": "e10", "answerable": true, "question": "What did you tell the People's Association on its twentieth anniversary?", "expected_docs": ["lky19801129"]}
+{"id": "e11", "answerable": true, "question": "What did you say at the Raffles Institution fund-raiser?", "expected_docs": ["lky19900717"]}
+{"id": "e12", "answerable": true, "question": "What did you say at the opening of the Academy of Law?", "expected_docs": ["lky19900831"]}
+{"id": "e13", "answerable": true, "question": "What did you say at the state banquet in October 1990?", "expected_docs": ["lky19901008"]}
+{"id": "e14", "answerable": true, "question": "What did you tell businessmen at the roundtable in 1990?", "expected_docs": ["lky19900601a"]}
+{"id": "e15", "answerable": true, "question": "What did you say about Singapore and Britain at the banquet in May 1990?", "expected_docs": ["lky19900524"]}
+{"id": "u01", "answerable": false, "question": "What did you say about Bitcoin and cryptocurrency?", "expected_docs": []}
+{"id": "u02", "answerable": false, "question": "What is your view on the 2024 United States presidential election?", "expected_docs": []}
+{"id": "u03", "answerable": false, "question": "What did you say about social media recommendation algorithms?", "expected_docs": []}
+{"id": "u04", "answerable": false, "question": "What is your opinion on ChatGPT and large language models?", "expected_docs": []}
+{"id": "u05", "answerable": false, "question": "What did you say about the COVID-19 pandemic?", "expected_docs": []}

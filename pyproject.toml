@@ -1,0 +1,21 @@
+[project]
+name = "lkybot"
+version = "0.1.0"
+description = "A retrieval-grounded chatbot that answers in the voice of Lee Kuan Yew"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "streamlit>=1.38",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+fetch = ["pymupdf>=1.24"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
