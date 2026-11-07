@@ -84,7 +84,7 @@ uv run python scripts/run_eval.py --provider gemini # full answer path
 
 ## Model choice
 
-The answer model is Gemini `gemini-3.1-flash-lite`. A question costs one model call, so the free tier is enough for a demo, and the model is fast enough that the median answer time stays under two seconds. Two earlier defaults failed in practice: `gemini-2.5-flash` is rejected for new API keys, and `gemini-3-flash-preview` allows only five requests per minute on the free tier, which is tight when an evaluation run fires twenty calls in a row. The provider layer is one method, `generate_json(system, user, schema_hint) -> dict`, so the answer model can be swapped without touching retrieval. OpenRouter and CommandCode are included as alternatives.
+The committed evaluation used Gemini `gemini-3.1-flash-lite`. The public demo can also run on CommandCode's free preview model `reflection/beam:free`, which costs no credits and was verified on this project with three accepted citations and zero rejected. A question costs one model call, so the free tier is enough for a demo, and the model is fast enough that the median answer time stays under two seconds. Two earlier defaults failed in practice: `gemini-2.5-flash` is rejected for new API keys, and `gemini-3-flash-preview` allows only five requests per minute on the free tier, which is tight when an evaluation run fires twenty calls in a row. The provider layer is one method, `generate_json(system, user, schema_hint) -> dict`, so the answer model can be swapped without touching retrieval. OpenRouter and CommandCode are included as alternatives.
 
 Retrieval makes no model calls at all. That is deliberate: the part that decides which evidence is admissible should not depend on the thing being judged.
 
