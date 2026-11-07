@@ -11,6 +11,7 @@ from lkybot.corpus import build_chunks, load_docs
 from lkybot.demo import extractive_answer
 from lkybot.providers import ProviderError, get_provider
 from lkybot.retrieve import BM25Index
+from lkybot.ui.provider_prompt import provider_dialog
 
 EXAMPLES = [
     "Why did Singapore have to separate from Malaysia?",
@@ -62,7 +63,15 @@ def main() -> None:
 
     with st.sidebar:
         st.header("Settings")
-        provider_name = st.selectbox("Answer engine", available_providers())
+        options = available_providers()
+        chosen = st.session_state.get("engine_choice")
+        if chosen not in options:
+            provider_dialog(options, {}, "engine_choice")
+            chosen = options[0]
+        provider_name = st.selectbox(
+            "Answer engine", options, index=options.index(chosen)
+        )
+        st.session_state["engine_choice"] = provider_name
         k = st.slider("Passages retrieved", 3, 8, 5)
         st.caption(
             f"{doc_count} speeches in the corpus. Demo mode returns the top passage "
