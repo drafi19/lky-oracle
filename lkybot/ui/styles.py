@@ -84,18 +84,47 @@ a { color: var(--accent); }
 }
 
 .stButton > button, .stDownloadButton > button {
-  background: var(--accent);
-  color: #FFFFFF;
-  border: 1px solid var(--accent);
   border-radius: 8px;
   font-weight: 600;
   padding: 0.45rem 1rem;
+  transition: border-color 120ms ease, color 120ms ease;
 }
 
-.stButton > button:hover, .stDownloadButton > button:hover {
+/* Streamlit renders the label as a paragraph inside the button, so the global
+   paragraph colour above wins over the button's own colour. Target descendants. */
+.stButton > button[kind="primary"] {
+  background: var(--accent);
+  border: 1px solid var(--accent);
+}
+.stButton > button[kind="primary"],
+.stButton > button[kind="primary"] p,
+.stButton > button[kind="primary"] div,
+.stButton > button[kind="primary"] span {
+  color: #FFFFFF;
+}
+.stButton > button[kind="primary"]:hover {
   background: #0B4742;
   border-color: #0B4742;
-  color: #FFFFFF;
+}
+
+.stButton > button:not([kind="primary"]) {
+  background: var(--panel);
+  border: 1px solid var(--line);
+}
+.stButton > button:not([kind="primary"]),
+.stButton > button:not([kind="primary"]) p,
+.stButton > button:not([kind="primary"]) div,
+.stButton > button:not([kind="primary"]) span {
+  color: var(--ink);
+}
+.stButton > button:not([kind="primary"]):hover {
+  border-color: var(--accent);
+}
+.stButton > button:not([kind="primary"]):hover,
+.stButton > button:not([kind="primary"]):hover p,
+.stButton > button:not([kind="primary"]):hover div,
+.stButton > button:not([kind="primary"]):hover span {
+  color: var(--accent);
 }
 
 div[data-testid="stExpander"] {
