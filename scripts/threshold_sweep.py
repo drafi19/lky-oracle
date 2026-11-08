@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from lkybot.answer import SYSTEM, _normalize, _prompt  # noqa: PLC2701
+from lkybot.answer import SYSTEM, _normalize, _prompt
 from lkybot.corpus import build_chunks, load_docs
 from lkybot.providers import get_provider
 from lkybot.retrieve import BM25Index
