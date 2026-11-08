@@ -1,0 +1,213 @@
+[
+  {
+    "id": "e01",
+    "citations": [
+      {
+        "exact": true,
+        "words": 31
+      },
+      {
+        "exact": true,
+        "words": 49
+      }
+    ]
+  },
+  {
+    "id": "e02",
+    "citations": [
+      {
+        "exact": true,
+        "words": 24
+      },
+      {
+        "exact": true,
+        "words": 26
+      },
+      {
+        "exact": true,
+        "words": 26
+      }
+    ]
+  },
+  {
+    "id": "e03",
+    "citations": [
+      {
+        "exact": true,
+        "words": 43
+      },
+      {
+        "exact": true,
+        "words": 18
+      }
+    ]
+  },
+  {
+    "id": "e04",
+    "citations": [
+      {
+        "exact": true,
+        "words": 41
+      },
+      {
+        "exact": true,
+        "words": 34
+      }
+    ]
+  },
+  {
+    "id": "e05",
+    "citations": [
+      {
+        "exact": true,
+        "words": 16
+      },
+      {
+        "exact": true,
+        "words": 22
+      }
+    ]
+  },
+  {
+    "id": "e06",
+    "citations": [
+      {
+        "exact": true,
+        "words": 25
+      },
+      {
+        "exact": true,
+        "words": 9
+      }
+    ]
+  },
+  {
+    "id": "e07",
+    "citations": [
+      {
+        "exact": true,
+        "words": 17
+      },
+      {
+        "exact": true,
+        "words": 34
+      },
+      {
+        "exact": true,
+        "words": 25
+      }
+    ]
+  },
+  {
+    "id": "e08",
+    "citations": [
+      {
+        "exact": true,
+        "words": 18
+      },
+      {
+        "exact": true,
+        "words": 18
+      },
+      {
+        "exact": true,
+        "words": 11
+      }
+    ]
+  },
+  {
+    "id": "e09",
+    "citations": [
+      {
+        "exact": true,
+        "words": 14
+      },
+      {
+        "exact": true,
+        "words": 19
+      },
+      {
+        "exact": true,
+        "words": 13
+      }
+    ]
+  },
+  {
+    "id": "e10",
+    "citations": [
+      {
+        "exact": true,
+        "words": 33
+      },
+      {
+        "exact": true,
+        "words": 32
+      }
+    ]
+  },
+  {
+    "id": "e11",
+    "citations": [
+      {
+        "exact": true,
+        "words": 22
+      },
+      {
+        "exact": true,
+        "words": 34
+      }
+    ]
+  },
+  {
+    "id": "e12",
+    "citations": [
+      {
+        "exact": true,
+        "words": 30
+      },
+      {
+        "exact": true,
+        "words": 26
+      },
+      {
+        "exact": true,
+        "words": 42
+      }
+    ]
+  },
+  {
+    "id": "e13",
+    "citations": [
+      {
+        "exact": true,
+        "words": 37
+      },
+      {
+        "exact": true,
+        "words": 28
+      }
+    ]
+  },
+  {
+    "id": "e14",
+    "citations": [
+      {
+        "exact": true,
+        "words": 39
+      }
+    ]
+  },
+  {
+    "id": "e15",
+    "citations": [
+      {
+        "exact": true,
+        "words": 25
+      },
+      {
+        "exact": true,
+        "words": 16
+      }
+    ]
+  }
+]
